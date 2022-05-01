@@ -1,25 +1,11 @@
 {
   "users": [
     {
-      "firstName": "homer",
-      "lastName": "simpson",
-      "email": "homer@simpson.com",
-      "password": "secret",
-      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
-    },
-    {
-      "firstName": "marge",
-      "lastName": "simpson",
-      "email": "marge@simpson.com",
-      "password": "secret",
-      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
-    },
-    {
       "firstName": "Mark",
       "lastName": "Ryan",
       "email": "20098241@mail.wit.ie",
       "password": "Password1",
-      "id": "6d78360d-71e5-4b7e-9c44-9dbc0e7483a5"
+      "id": "73ca2418-9371-4400-be67-3e6c454f84af"
     }
   ]
 }
