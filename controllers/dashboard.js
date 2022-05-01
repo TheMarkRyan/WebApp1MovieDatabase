@@ -46,11 +46,13 @@ const dashboard = {
       userid: loggedInUser.id,
       title: request.body.title,
       duration: request.body.duration,
+      picture: request.files.picture,
       movies: [],
     };
     logger.debug('Creating a new Compilation' + newCompilation);
-    compilationStore.addCompilation(newCompilation);
+    compilationStore.addCompilation(newCompilation, function() {
     response.redirect('/dashboard');
+ });
   }, 
 }; 
 module.exports = dashboard;
