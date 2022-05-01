@@ -1,15 +1,14 @@
+
 <table class="ui fixed striped table">
   <thead>
     <tr>
-      <th class="four wide">Movie</th>
-      <th class="four wide">Artist</th>
-      <th class="three wide">Genre</th>
-      <th class="three wide">Duration</th>
-      <th class="one wide"> </th>
-      <th class="one wide"> </th>
+     <th>Movie</th>
+      <th>Director</th>
+      <th>Runtime</th>
+      <th>Release Year</th>
     </tr>
   </thead>
-<tbody>
+<tbody> 
     {{#each compilation.movies}}
     <form class = "ui stacked segment form" action="/compilation/{{../compilation.id}}/updatemovie/{{id}}" method="POST">
     <tr class="fields">
@@ -34,11 +33,11 @@
         </span>
       </td>
       <td class="center aligned">
-        <button class="ui submit icon button"><i class="icon pencil alternate"></i></button>
+        <button class="ui submit icon button"><i class="ui pencil alternate icon"></i></button>
       </td>
       <td class="center aligned">
         <a href="/compilation/{{../compilation.id}}/deletemovie/{{id}}" class="ui icon button delmovie">
-          <i class="icon trash"></i>
+          <i class="ui trash icon"></i>
         </a>
       </td>
     </tr>
