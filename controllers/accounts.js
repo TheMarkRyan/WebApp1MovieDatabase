@@ -39,9 +39,7 @@ const accounts = {
     user.id = uuid();
     userstore.addUser(user);
     logger.info('registering' + user.email);
-    response.cookie('compilation', user.email);
-    logger.info('logging in' + user.email);
-    response.redirect('/start');
+    response.redirect('/');
   },
   //authenticate function to check user credentials and either render the login page again or the start page.
   authenticate(request, response) {

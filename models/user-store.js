@@ -3,6 +3,18 @@
 const _ = require('lodash');
 const JsonStore = require('./json-store');
 
+const cloudinary = require('cloudinary');
+const logger = require('../utils/logger');
+
+try {
+  const env = require('../.data/.env.json');
+  cloudinary.config(env.cloudinary);
+}
+catch(e) {
+  logger.info('You must provide a Cloudinary credentials file - see README.md');
+  process.exit(1);
+}
+
 const userStore = {
 
   store: new JsonStore('./models/user-store.json', {users: []}),

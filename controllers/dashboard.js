@@ -23,6 +23,7 @@ const dashboard = {
       title: 'Movie App Dashboard',
       compilations: compilationStore.getUserCompilations(loggedInUser.id),
    fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+       picture: loggedInUser.picture
     };
     
    

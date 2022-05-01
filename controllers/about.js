@@ -17,6 +17,7 @@ const about = {
         title: 'About the Movie Compilation App',
         developers: developerStore.getAllDevelopers(),
         fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+         picture: loggedInUser.picture
       };
       response.render('about', viewData);
     }

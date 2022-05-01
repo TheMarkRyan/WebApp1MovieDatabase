@@ -16,6 +16,7 @@ const compilation = {
         title: 'Compilation',
         compilation: compilationStore.getCompilation(compilationId),
         fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+         picture: loggedInUser.picture
       };
       response.render('compilation', viewData);
       }
