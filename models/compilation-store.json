@@ -22,6 +22,14 @@
       "duration": "938 minutes",
       "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651429981/tephi9noxcphc3z8cb7l.jpg",
       "movies": []
+    },
+    {
+      "id": "6401e9b6-5752-49d5-a4a2-280c8f5d5f01",
+      "userid": "73ca2418-9371-4400-be67-3e6c454f84af",
+      "title": "Comedy Movies",
+      "duration": "665 Minutes",
+      "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651430635/ph7tgyw2psecj7e9r9fv.jpg",
+      "movies": []
     }
   ]
 }
