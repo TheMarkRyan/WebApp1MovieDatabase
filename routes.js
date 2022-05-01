@@ -8,7 +8,7 @@ const router = express.Router();
 const start = require('./controllers/start.js');
 const dashboard = require('./controllers/dashboard.js');
 const about = require('./controllers/about.js');
-const playlist = require('./controllers/playlist.js');
+const compilation = require('./controllers/compilation.js');
 const accounts = require ('./controllers/accounts.js');
 
 // connect routes to controllers
@@ -24,14 +24,14 @@ router.get('/start', start.index);
 router.get('/dashboard', dashboard.index);
 router.get('/about', about.index);
 
-router.get('/playlist/:id', playlist.index);
+router.get('/compilation/:id', compilation.index);
 
-router.get('/playlist/:id/deleteSong/:songid', playlist.deleteSong);
-router.post('/playlist/:id/addsong', playlist.addSong);
-router.post('/playlist/:id/updatesong/:songid', playlist.updateSong);
+router.get('/compilation/:id/deleteMovie/:movieid', compilation.deleteMovie);
+router.post('/compilation/:id/addmovie', compilation.addMovie);
+router.post('/compilation/:id/updatemovie/:movieid', compilation.updateMovie);
 
-router.get('/dashboard/deleteplaylist/:id', dashboard.deletePlaylist);
-router.post('/dashboard/addplaylist', dashboard.addPlaylist);
+router.get('/dashboard/deletecompilation/:id', dashboard.deleteCompilation);
+router.post('/dashboard/addcompilation', dashboard.addCompilation);
 
 // export router module
 module.exports = router;

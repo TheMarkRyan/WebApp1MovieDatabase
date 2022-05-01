@@ -1,68 +1,75 @@
 {{> menu}}
-
 <section class="ui two column grid segment">
       <div class="ui column">
-            <h1 class="ui header">
-              Welcome to the Movie Compilation App, {{fullname}}!
-            </h1>
+          <h2 id="b1">Welcome to Mark's Movie Collection!</h2>
             <p>
-              This app will allow users to create and maintain a collection of playlists.
+              This app allows me to share my favourite movies and allows you to add movies also.
             </p>
             <div class="buttons">
-              <button class="ui blue button">
+              <button class="ui orange button">
                 Read more <i class="arrow circle right icon"></i>
               </button>
-              <button class="ui green button">
-                Like it? <i class="thumbs up icon"></i>
+              <button class="ui purple button">
+                Like it? <i class="heart icon"></i>
               </button>
               <button class="ui red button">
-                Who are you? <i class="user icon"></i>
+                What's your name? <i class="user icon"></i>
               </button>
             </div>
           <div id="readmore" class="ui message">
             <p>
-              Over the coming months, we will add CRUD (Create, Read, Update, and Delete) functionality to this app. Users will also be able to create an account, log in, and upload images to the app.
+              Click the images on the right to visit the film's IMDB page. Click "Dashboard" to views my favourite films. Click "About" to read about me.
             </p>  
           </div>
-          <div id="welcomeuser" class="ui message"> </div>
-        
-        <div class="ui divider"></div>
-
-<h3 class="ui center aligned header">The Compilation App now contains:</h3>
+        <div class="ui row">
+          <div cass="ui row"> 
+          </div>
+           <div class="ui divider"></div>
+            <h3 class="ui center aligned header">
+  The Movie Compilation App now contains:
+</h3>
 <div class="ui two statistics">
-    <div class="ui huge statistic">
-        <div class="value">
-            {{totalCompilations}}
-        </div>
-        <div class="label">
-            Compilations
-        </div>
+  <div class="ui huge statistic">
+    <div class="value">
+      {{totalCompilations}}
     </div>
-    <div class="ui huge statistic">
-        <div class="value">
-            {{totalSongs}}
-        </div>
-        <div class="label">
-            Songs
-        </div>
+    <div class="label">
+     Movie Compilations
     </div>
-</div>
-        
-        </div>  
-  <div class="ui column">
-    <div class="ui grid">
-      <div class="ui eight wide column">
-        <img class="ui small circular image" src="https://cdn.glitch.com/9ba7382f-fb82-4a5a-a4a0-a8e03177a6b9%2F61H-3pL9ysL.jpg?1554809011078">
+  </div>
+    <div class="ui huge statistic">
+      <div class="value">
+        {{totalMovies}}
       </div>
-      <div class="ui eight wide column">
-        <img class="ui small circular image" src="https://cdn.glitch.com/9ba7382f-fb82-4a5a-a4a0-a8e03177a6b9%2Feacc2030.jpg?1554808740160">
-      </div>
-      <div class="ui eight wide column">
-        <img class="ui small circular image" src="https://cdn.glitch.com/9ba7382f-fb82-4a5a-a4a0-a8e03177a6b9%2F1200x630bb.jpg?1554808932348">
-      </div>
-      <div class="ui eight wide column">
-        <img class="ui small circular image" src="https://cdn.glitch.com/9ba7382f-fb82-4a5a-a4a0-a8e03177a6b9%2FCS425161-01A-BIG.jpg?1554808740840">
+      <div class ="label">
+        Movies
       </div>
     </div>
   </div>
+
+        </div>
+          <div id="welcomeuser" class="ui message"> </div>
+        </div>  <div class="ui column">
+    <div class="ui grid">
+      <div class="ui eight wide column">
+   <a href="https://www.imdb.com/title/tt0780504/?ref_=fn_al_tt_1"> <img class="ui medium rounded image" src="https://cdn.glitch.global/df3c2796-bdf1-443d-bf01-7cfff5259797/2f69edf2-88b2-4154-9f11-8315619df2f2.Drive.jpg?v=1647791808212">
+      </a>
+      </div>
+      <div class="ui eight wide column">
+       <a href="https://www.imdb.com/title/tt0113247/"> <img class="ui medium rounded image" src="https://cdn.glitch.global/df3c2796-bdf1-443d-bf01-7cfff5259797/La%20Haine.jpg?v=1647791923127">
+        </a>
+         </div>
+      <div class="ui eight wide column">
+     <a href="https://www.imdb.com/title/tt0369339/?ref_=nv_sr_srsg_3"> <img class="ui medium rounded image" src="https://cdn.glitch.global/df3c2796-bdf1-443d-bf01-7cfff5259797/Collateral_(Movie).jpg?v=1647792155065">
+     </a> 
+       </div>
+      <div class="ui eight wide column">
+        <a href="https://www.imdb.com/title/tt0095016/?ref_=fn_al_tt_1">
+        <img class="ui medium rounded image" src="https://cdn.glitch.global/df3c2796-bdf1-443d-bf01-7cfff5259797/Die%20Hard.jpg?v=1647792226570">
+          </a>
+      </div>
+    </div> 
+  </div>
+
 </section>
+

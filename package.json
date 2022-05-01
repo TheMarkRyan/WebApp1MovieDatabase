@@ -1,7 +1,7 @@
 {
-  "name": "playlist-app",
+  "name": "compilation-app",
   "version": "0.0.1",
-  "description": "A little playlist maker",
+  "description": "A little Movie Compilation maker",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

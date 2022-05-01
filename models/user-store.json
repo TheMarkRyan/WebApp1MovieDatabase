@@ -15,18 +15,11 @@
       "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
     },
     {
-      "firstName": "Rosanne",
-      "lastName": "Birney",
-      "email": "rosanne@gmail.com",
-      "password": "Secret1",
-      "id": "b6605f62-f9ca-492b-a812-9607dcd218e6"
-    },
-    {
-      "firstName": "Rosanne",
-      "lastName": "Birney",
-      "email": "rosanne2@gmail.com",
-      "password": "Secret1",
-      "id": "9340fdd9-0b9e-4701-ad21-8b4994cf3a3e"
+      "firstName": "Mark",
+      "lastName": "Ryan",
+      "email": "20098241@mail.wit.ie",
+      "password": "Password1",
+      "id": "6d78360d-71e5-4b7e-9c44-9dbc0e7483a5"
     }
   ]
 }

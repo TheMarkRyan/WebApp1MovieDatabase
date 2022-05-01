@@ -7,6 +7,10 @@ const developerStore = {
   getAllDevelopers() {
     return this.developers;
   },
+ 
+  getUserCompilations(userid) {
+    return this.store.findBy(this.collection, { userid: userid });
+  },
 
 };
 
