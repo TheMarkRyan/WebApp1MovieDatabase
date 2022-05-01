@@ -23,7 +23,7 @@ const accounts = {
   },
   //logout function to render logout page
   logout(request, response) {
-    response.cookie('playlist', '');
+    response.cookie('compilation', '');
     response.redirect('/');
   },
  //signup function to render signup page
@@ -39,7 +39,7 @@ const accounts = {
     user.id = uuid();
     userstore.addUser(user);
     logger.info('registering' + user.email);
-    response.cookie('playlist', user.email);
+    response.cookie('compilation', user.email);
     logger.info('logging in' + user.email);
     response.redirect('/start');
   },
@@ -47,7 +47,7 @@ const accounts = {
   authenticate(request, response) {
     const user = userstore.getUserByEmail(request.body.email);
     if (user && user.password===request.body.password) {
-      response.cookie('playlist', user.email);
+      response.cookie('compilation', user.email);
       logger.info('logging in' + user.email);
       response.redirect('/start');
     } else {
@@ -56,7 +56,7 @@ const accounts = {
   },
  //utility function getCurrentUser to check who is currently logged in
   getCurrentUser (request) {
-    const userEmail = request.cookies.playlist;
+    const userEmail = request.cookies.compilation;
     return userstore.getUserByEmail(userEmail);
   }
 }

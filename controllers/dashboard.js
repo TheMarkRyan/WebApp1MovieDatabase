@@ -1,52 +1,56 @@
 'use strict';
 
-// import all required modules
+
 const logger = require('../utils/logger');
 const uuid = require('uuid');
 
-const accounts = require ('./accounts.js');
-const playlistStore = require('../models/playlist-store.js');
+const compilationStore = require('../models/compilation-store.js');
 
-// create dashboard object
+const accounts = require ('./accounts.js');
+
 const dashboard = {
   
-  // index method - responsible for creating and rendering the view
+
   index(request, response) {
+    
+    
     logger.info('dashboard rendering');
-    const loggedInUser = accounts.getCurrentUser(request);
+    
+      const loggedInUser = accounts.getCurrentUser(request);
     if (loggedInUser) {
+    
     const viewData = {
-      title: 'Playlist Dashboard',
-      playlists: playlistStore.getUserPlaylists(loggedInUser.id),
-      fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+      title: 'Movie App Dashboard',
+      compilations: compilationStore.getUserCompilations(loggedInUser.id),
+   fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
     };
-    logger.info('about to render' + viewData.playlists);
+    
+   
+    logger.info('about to render', viewData.compilations);
     response.render('dashboard', viewData);
     }
     else response.redirect('/');
   },
   
-  deletePlaylist(request, response) {
-    const playlistId = request.params.id;
-    logger.debug(`Deleting Playlist ${playlistId}`);
-    playlistStore.removePlaylist(playlistId);
+  deleteCompilation(request, response) {
+    const compilationId = request.params.id;
+    logger.debug(`Deleting Compilation ${compilationId}`);
+    compilationStore.removeCompilation(compilationId);
     response.redirect('/dashboard');
-  },
+  }, 
   
-  addPlaylist(request, response) {
+ addCompilation(request, response) {
     const loggedInUser = accounts.getCurrentUser(request);
-    const newPlayList = {
+    const newCompilation = {
       id: uuid(),
       userid: loggedInUser.id,
       title: request.body.title,
       duration: request.body.duration,
-      songs: [],
+      movies: [],
     };
-    logger.debug('Creating a new Playlist' + newPlayList);
-    playlistStore.addPlaylist(newPlayList);
+    logger.debug('Creating a new Compilation' + newCompilation);
+    compilationStore.addCompilation(newCompilation);
     response.redirect('/dashboard');
-  },
-};
-
-// export the dashboard module
+  }, 
+}; 
 module.exports = dashboard;

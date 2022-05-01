@@ -22,13 +22,12 @@ const start = {
       for (let item of playlists) {
         numSongs += item.songs.length;
       }
-
-      const viewData = {
-        title: 'Welcome to the Playlist App!',
-        totalPlaylists: numPlaylists,
-        totalSongs: numSongs,
-        fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
-      };
+      
+    const viewData = {
+      title: 'Welcome to the Movie Compilation App!',
+      totalCompilations: numCompilations,
+      totalMovies: numMovies,
+    };
 
       response.render('start', viewData);
     }

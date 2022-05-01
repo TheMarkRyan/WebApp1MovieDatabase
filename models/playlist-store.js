@@ -3,46 +3,46 @@
 const _ = require('lodash');
 const JsonStore = require('./json-store');
 
-const playlistStore = {
+const compilationStore = {
 
-  store: new JsonStore('./models/playlist-store.json', { playlistCollection: [] }),
-  collection: 'playlistCollection',
+  store: new JsonStore('./models/compilation-store.json', { compilationCollection: [] }),
+  collection: 'compilationCollection',
 
-  getAllPlaylists() {
+  getAllCompilations() {
     return this.store.findAll(this.collection);
   },
 
-  getPlaylist(id) {
+  getCompilation(id) {
     return this.store.findOneBy(this.collection, { id: id });
   },
 
-  addPlaylist(playlist) {
-    this.store.add(this.collection, playlist);
+  addCompilation(compilation) {
+    this.store.add(this.collection, compilation);
   },
 
-  removePlaylist(id) {
-    const playlist = this.getPlaylist(id);
-    this.store.remove(this.collection, playlist);
+  removeCompilation(id) {
+    const compilation = this.getCompilation(id);
+    this.store.remove(this.collection, compilation);
   },
 
-  removeAllPlaylists() {
+  removeAllCompilations() {
     this.store.removeAll(this.collection);
   },
 
   addSong(id, song) {
-    const playlist = this.getPlaylist(id);
-    playlist.songs.push(song);
+    const compilation = this.getCompilation(id);
+    compilation.songs.push(song);
   },
 
   removeSong(id, songId) {
-    const playlist = this.getPlaylist(id);
-    const songs = playlist.songs;
+    const compilation = this.getCompilation(id);
+    const songs = compilation.songs;
     _.remove(songs, { id: songId});
   },
   
   editSong(id, songId, updatedSong) {
-    const playlist = this.getPlaylist(id);
-    const songs = playlist.songs;
+    const compilation = this.getCompilation(id);
+    const songs = compilation.songs;
     const index = songs.findIndex(song => song.id === songId);
     songs[index].title = updatedSong.title;
     songs[index].artist = updatedSong.artist;
@@ -50,9 +50,9 @@ const playlistStore = {
     songs[index].duration = updatedSong.duration;
   },
   
-  getUserPlaylists(userid) {
+  getUserCompilations(userid) {
     return this.store.findBy(this.collection, { userid: userid });
   },
 };
 
-module.exports = playlistStore;
+module.exports = compilationStore;

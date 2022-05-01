@@ -1,33 +1,5 @@
 {
   "playlistCollection": [
-    {
-      "id": "bb7c2a84-9d2b-4601-97d3-a76ea5803450",
-      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
-      "title": "Homer's playlist",
-      "duration": "5",
-      "songs": []
-    },
-    {
-      "id": "3a4fec57-7b93-4a40-9211-a3979b1b2592",
-      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
-      "title": "Marge's Playlist",
-      "duration": "5",
-      "songs": []
-    },
-    {
-      "id": "532631c6-1508-4d18-b774-f9670b65d194",
-      "userid": "b6605f62-f9ca-492b-a812-9607dcd218e6",
-      "title": "Rosanne's Playlist",
-      "duration": "25",
-      "songs": [
-        {
-          "id": "99285875-84b1-4fcc-99ea-ad4d39617cbd",
-          "title": "Test",
-          "artist": "Artist",
-          "genre": "Genre",
-          "duration": "5"
-        }
-      ]
-    }
-  ]
+    ]
+  
 }
