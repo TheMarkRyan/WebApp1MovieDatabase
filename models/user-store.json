@@ -5,8 +5,9 @@
       "lastName": "Ryan",
       "email": "20098241@mail.wit.ie",
       "password": "Password1",
+      "picture": "https://res.cloudinary.com/dofklqk3g/image/upload/v1651438136/TheDennis_flidho.jpg",
       "id": "73ca2418-9371-4400-be67-3e6c454f84af"
-      "picture"
+      
     }
   ]
 }

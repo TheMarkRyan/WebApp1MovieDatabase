@@ -1,3 +1,9 @@
+{{#unless compilation.movies}}
+  <h3 class="ui center aligned message">There are no movies in this genre! Try adding some!</h3>
+{{/unless}}
+
+
+{{#if compilation.movies}}
 
 <table class="ui fixed striped table">
   <thead>
@@ -53,3 +59,5 @@
 <button class="ui blue button" id="rateit">
   Rate it! <i class="star icon"></i>
 </button>
+
+{{/if}}

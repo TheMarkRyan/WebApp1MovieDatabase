@@ -23,6 +23,12 @@ app.use(fileUpload());
 app.engine('.hbs', exphbs({
   extname: '.hbs',
   defaultLayout: 'main',
+  helpers: {
+    uppercase: (inputString) => {
+        return inputString.toUpperCase();
+    },
+}
+  
 }));
 app.set('view engine', '.hbs');
 
