@@ -22,6 +22,14 @@
       "password": "Secret1",
       "picture": "dennis.webp",
       "id": "41c32048-7be2-4261-bc8f-10943c34b5b7"
+    },
+    {
+      "firstName": "Dennis",
+      "lastName": "Reynolds",
+      "email": "Dennis1@Reynolds.com",
+      "password": "Secret1",
+      "picture": "TheDennis.png",
+      "id": "f8d4d39e-31cd-4e17-ba0f-140a81171cf7"
     }
   ]
 }
