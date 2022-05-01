@@ -6,6 +6,22 @@
       "title": "test1",
       "duration": "5",
       "movies": []
+    },
+    {
+      "id": "8f5131b2-9b0b-45af-bf3b-999f109f41ac",
+      "userid": "73ca2418-9371-4400-be67-3e6c454f84af",
+      "title": "Action Movies",
+      "duration": "901 Minutes",
+      "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651429704/im0yqyn0avpp7gnedazm.jpg",
+      "movies": []
+    },
+    {
+      "id": "9418beb6-6323-4bd5-bc72-1115f58d4728",
+      "userid": "73ca2418-9371-4400-be67-3e6c454f84af",
+      "title": "Thriller Movies",
+      "duration": "938 minutes",
+      "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651429981/tephi9noxcphc3z8cb7l.jpg",
+      "movies": []
     }
   ]
 }
