@@ -1,7 +1,7 @@
 <table class="ui fixed striped table">
   <thead>
     <tr>
-      <th class="four wide">Song</th>
+      <th class="four wide">Movie</th>
       <th class="four wide">Artist</th>
       <th class="three wide">Genre</th>
       <th class="three wide">Duration</th>
@@ -10,8 +10,8 @@
     </tr>
   </thead>
 <tbody>
-    {{#each playlist.songs}}
-    <form class = "ui stacked segment form" action="/playlist/{{../playlist.id}}/updatesong/{{id}}" method="POST">
+    {{#each compilation.movies}}
+    <form class = "ui stacked segment form" action="/compilation/{{../compilation.id}}/updatemovie/{{id}}" method="POST">
     <tr class="fields">
       <td class="field">
         <span class="ui input">
@@ -37,7 +37,7 @@
         <button class="ui submit icon button"><i class="icon pencil alternate"></i></button>
       </td>
       <td class="center aligned">
-        <a href="/playlist/{{../playlist.id}}/deletesong/{{id}}" class="ui icon button delsong">
+        <a href="/compilation/{{../compilation.id}}/deletemovie/{{id}}" class="ui icon button delmovie">
           <i class="icon trash"></i>
         </a>
       </td>

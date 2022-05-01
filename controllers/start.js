@@ -2,7 +2,7 @@
 
 // import all required modules
 const logger = require('../utils/logger');
-const playlistStore = require('../models/playlist-store.js');
+const compilationStore = require('../models/compilation-store.js');
 const accounts = require ('./accounts.js');
 
 // create start object
@@ -16,11 +16,11 @@ const start = {
 
     if(loggedInUser){
 
-      const playlists = playlistStore.getAllPlaylists();
-      let numPlaylists = playlists.length;
-      let numSongs = 0;
-      for (let item of playlists) {
-        numSongs += item.songs.length;
+      const compilations = compilationStore.getAllCompilations();
+      let numCompilations = compilations.length;
+      let numMovies = 0;
+      for (let item of compilations) {
+        numMovies += item.movies.length;
       }
       
     const viewData = {

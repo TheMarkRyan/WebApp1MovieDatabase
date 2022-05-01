@@ -29,25 +29,25 @@ const compilationStore = {
     this.store.removeAll(this.collection);
   },
 
-  addSong(id, song) {
+  addMovie(id, movie) {
     const compilation = this.getCompilation(id);
-    compilation.songs.push(song);
+    compilation.movies.push(movie);
   },
 
-  removeSong(id, songId) {
+  removeMovie(id, movieId) {
     const compilation = this.getCompilation(id);
-    const songs = compilation.songs;
-    _.remove(songs, { id: songId});
+    const movies = compilation.movies;
+    _.remove(movies, { id: movieId});
   },
   
-  editSong(id, songId, updatedSong) {
+  editMovie(id, movieId, updatedMovie) {
     const compilation = this.getCompilation(id);
-    const songs = compilation.songs;
-    const index = songs.findIndex(song => song.id === songId);
-    songs[index].title = updatedSong.title;
-    songs[index].artist = updatedSong.artist;
-    songs[index].genre = updatedSong.genre;
-    songs[index].duration = updatedSong.duration;
+    const movies = compilation.movies;
+    const index = movies.findIndex(movie => movie.id === movieId);
+    movies[index].title = updatedMovie.title;
+    movies[index].artist = updatedMovie.artist;
+    movies[index].genre = updatedMovie.genre;
+    movies[index].duration = updatedMovie.duration;
   },
   
   getUserCompilations(userid) {
