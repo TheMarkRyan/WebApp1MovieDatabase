@@ -41,6 +41,7 @@ const dashboard = {
   }, 
   
  addCompilation(request, response) {
+   const date = new Date();
     const loggedInUser = accounts.getCurrentUser(request);
     const newCompilation = {
       id: uuid(),
@@ -48,6 +49,7 @@ const dashboard = {
       title: request.body.title,
       duration: request.body.duration,
       picture: request.files.picture,
+      date: date,
       movies: [],
     };
     logger.debug('Creating a new Compilation' + newCompilation);

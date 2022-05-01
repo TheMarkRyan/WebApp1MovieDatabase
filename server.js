@@ -27,6 +27,29 @@ app.engine('.hbs', exphbs({
     uppercase: (inputString) => {
         return inputString.toUpperCase();
     },
+      formatDate: (date) =>  {
+  let dateCreated = new Date(date);
+        let dateNum = dateCreated.getDate();
+        let month = dateCreated.getMonth();
+        let year = dateCreated.getFullYear();
+
+        let months = [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December"
+        ];
+        let monthname = months[month];
+        return `${monthname} ${dateNum}, ${year}`;
+      },
 }
   
 }));

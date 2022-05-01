@@ -1,18 +1,12 @@
 {
   "compilationCollection": [
     {
-      "id": "2b2e97df-d0b4-4264-968b-ee3b367cd577",
-      "userid": "6d78360d-71e5-4b7e-9c44-9dbc0e7483a5",
-      "title": "test1",
-      "duration": "5",
-      "movies": []
-    },
-    {
       "id": "8f5131b2-9b0b-45af-bf3b-999f109f41ac",
       "userid": "73ca2418-9371-4400-be67-3e6c454f84af",
       "title": "Action Movies",
       "duration": "901 Minutes",
       "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651429704/im0yqyn0avpp7gnedazm.jpg",
+      "date": " ",
       "movies": []
     },
     {
@@ -21,6 +15,7 @@
       "title": "Thriller Movies",
       "duration": "938 minutes",
       "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651429981/tephi9noxcphc3z8cb7l.jpg",
+      "date": "",
       "movies": []
     },
     {
@@ -29,6 +24,7 @@
       "title": "Comedy Movies",
       "duration": "665 Minutes",
       "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651430635/ph7tgyw2psecj7e9r9fv.jpg",
+      "date": "",
       "movies": []
     }
   ]
