@@ -12,25 +12,7 @@
       "userid": "73ca2418-9371-4400-be67-3e6c454f84af",
       "title": "test1",
       "duration": "5",
-      "movies": [
-        {
-          "id": "1ff18c67-209b-4319-9bb2-3e8f6ee45d3d",
-          "movie": "h",
-          "director": "h",
-          "runtime": "h",
-          "year": "h"
-        },
-        {
-          "id": "7e9d815b-2802-4f21-b4f2-a4ffff72a514",
-          "movie": "h",
-          "director": "h",
-          "runtime": "h",
-          "year": "h"
-        },
-        {
-          "id": "206c87b3-3162-428e-94c9-712639ab1bcb"
-        }
-      ]
+      "movies": []
     }
   ]
 }
