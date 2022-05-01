@@ -6,30 +6,7 @@
       "email": "20098241@mail.wit.ie",
       "password": "Password1",
       "id": "73ca2418-9371-4400-be67-3e6c454f84af"
-    },
-    {
-      "firstName": "Mark",
-      "lastName": "Ryan",
-      "email": "20098241@mail.wit.ie",
-      "password": "Password1",
-      "picture": "dennis.webp",
-      "id": "e25e3565-1190-48e5-bbd0-e1f085ec1de5"
-    },
-    {
-      "firstName": "Dennis",
-      "lastName": "Reynolds",
-      "email": "Dennis@Reynolds.com",
-      "password": "Secret1",
-      "picture": "dennis.webp",
-      "id": "41c32048-7be2-4261-bc8f-10943c34b5b7"
-    },
-    {
-      "firstName": "Dennis",
-      "lastName": "Reynolds",
-      "email": "Dennis1@Reynolds.com",
-      "password": "Secret1",
-      "picture": "TheDennis.png",
-      "id": "f8d4d39e-31cd-4e17-ba0f-140a81171cf7"
+      "picture"
     }
   ]
 }
