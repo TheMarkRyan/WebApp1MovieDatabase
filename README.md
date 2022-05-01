@@ -1,3 +1,6 @@
-# Get Started!
+Lab 8
+=================
 
-Add files and start typing 🎉
+- Added welcome, login, and signup views
+- Added signup and login functionality
+- Changed dashboard to show user's playlists
