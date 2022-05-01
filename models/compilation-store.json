@@ -5,15 +5,7 @@
       "userid": "6d78360d-71e5-4b7e-9c44-9dbc0e7483a5",
       "title": "test1",
       "duration": "5",
-      "movies": [
-        {
-          "id": "e8ce006f-7884-436f-b30b-3757cf811caf",
-          "movie": "f",
-          "director": "f",
-          "runtime": "f",
-          "year": "f"
-        }
-      ]
+      "movies": []
     }
   ]
 }

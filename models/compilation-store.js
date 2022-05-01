@@ -44,10 +44,10 @@ const compilationStore = {
     const compilation = this.getCompilation(id);
     const movies = compilation.movies;
     const index = movies.findIndex(movie => movie.id === movieId);
-    movies[index].title = updatedMovie.title;
-    movies[index].artist = updatedMovie.artist;
-    movies[index].genre = updatedMovie.genre;
-    movies[index].duration = updatedMovie.duration;
+    movies[index].movie = updatedMovie.movie;
+    movies[index].director = updatedMovie.director;
+    movies[index].runtime = updatedMovie.runtime;
+    movies[index].year = updatedMovie.year;
   },
   
   getUserCompilations(userid) {
