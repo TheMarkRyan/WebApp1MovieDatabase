@@ -14,6 +14,55 @@
           "director": "John McTiernan ",
           "runtime": "132 minutes",
           "year": "1988"
+        },
+        {
+          "id": "a0eafeb3-99f3-4ea1-8495-fe98efc8bdb6",
+          "movie": "Predator",
+          "director": "John McTiernan\t",
+          "runtime": "107 minutes",
+          "year": "1987"
+        },
+        {
+          "id": "dc39aaba-ede4-44cf-96e1-b8ecfd544987",
+          "movie": "The Raid",
+          "director": "Gareth Evans",
+          "runtime": "101 minutes",
+          "year": "2012"
+        },
+        {
+          "id": "b03ac8dc-b7d9-432a-bfbb-186f7f98dd7e",
+          "movie": "Falling Down",
+          "director": "Joel Schumacher",
+          "runtime": "113 minutes",
+          "year": "1993"
+        },
+        {
+          "id": "cc380c94-1726-44e8-b940-aa818b205b09",
+          "movie": "Snatch",
+          "director": "Guy Ritchie",
+          "runtime": "102 minutes",
+          "year": "2000"
+        },
+        {
+          "id": "1f8ce382-1e71-4b0e-ba35-76cb899a763b",
+          "movie": "Train to Busan",
+          "director": "Yeon Sang-ho",
+          "runtime": "118 minutes",
+          "year": "2016"
+        },
+        {
+          "id": "aa6cab9d-5e30-461a-a682-c58e87bbec74",
+          "movie": "Raiders of The Lost Ark",
+          "director": "Steven Spielberg\t",
+          "runtime": "115 minutes",
+          "year": "1981"
+        },
+        {
+          "id": "160c6733-912b-4848-bd35-c62a2c08c6d9",
+          "movie": "Battle Royale",
+          "director": "Kinji Fukasaku\t",
+          "runtime": "113 minutes",
+          "year": "2000"
         }
       ]
     },
@@ -24,7 +73,64 @@
       "duration": "938 minutes",
       "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651440008/hbswwj6xdjlfjocg7wnt.jpg",
       "date": "2022-05-01T21:20:08.343Z",
-      "movies": []
+      "movies": [
+        {
+          "id": "25062b10-d15c-4b8c-af96-1f73f64bfcfe",
+          "movie": "Parasite",
+          "director": "Bong Joon-ho",
+          "runtime": "132 minutes",
+          "year": "2019"
+        },
+        {
+          "id": "58ca6cc1-4836-4dba-ba0c-2781061b1255",
+          "movie": "Seven",
+          "director": "David Fincher",
+          "runtime": "127 minutes",
+          "year": "\t1995"
+        },
+        {
+          "id": "daecc5e5-0202-4e3d-bb74-b275172ad9ea",
+          "movie": "The Fugitive",
+          "director": "Andrew Davis",
+          "runtime": "130 minutes",
+          "year": "1993"
+        },
+        {
+          "id": "2c3e1f01-4a82-4939-b724-713289d5bc43",
+          "movie": "Collateral",
+          "director": "Michael Mann",
+          "runtime": "120 minutes",
+          "year": "2004"
+        },
+        {
+          "id": "0ecc45a8-9f07-4e52-be1d-c4b8af71ee78",
+          "movie": "No Country for Old Men",
+          "director": "Coen Brothers",
+          "runtime": "122 minutes",
+          "year": "2007"
+        },
+        {
+          "id": "ab6d0dbf-c170-4b12-8bbb-78fb40805216",
+          "movie": "The Thing",
+          "director": "John Carpenter",
+          "runtime": "109 minutes",
+          "year": "1982"
+        },
+        {
+          "id": "e1c65f48-7e99-45ef-89e1-24ecb14f8fdf",
+          "movie": "Drive",
+          "director": "Nicolas Winding Ref",
+          "runtime": "100 minutes",
+          "year": "2011"
+        },
+        {
+          "id": "24acb8b4-ba8a-42b8-9cd4-7cfa8a4e6281",
+          "movie": "La Haine",
+          "director": "Mathieu Kassovitz",
+          "runtime": "98 minutes",
+          "year": "1995"
+        }
+      ]
     },
     {
       "id": "6c54bd72-afb4-43c8-8a50-a89bd2332041",
@@ -33,7 +139,43 @@
       "duration": "665 Minutes",
       "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651440026/rwwsnzh9ox6uw3tzsuuh.jpg",
       "date": "2022-05-01T21:20:26.086Z",
-      "movies": []
+      "movies": [
+        {
+          "id": "ff7c3c22-08b7-411e-81e3-588814198e0b",
+          "movie": "Tropic Thunder",
+          "director": "Ben Stiller",
+          "runtime": "107 minutes",
+          "year": "2008"
+        },
+        {
+          "id": "08136454-294b-4575-9339-743926f5f4b6",
+          "movie": "Anchorman",
+          "director": "Adam McKay\t",
+          "runtime": "94 minutes",
+          "year": "2004"
+        },
+        {
+          "id": "3309202e-8eac-4643-bd05-9554dc37eace",
+          "movie": "Four Lions",
+          "director": "Chris Morris",
+          "runtime": "97 minutes",
+          "year": "2010"
+        },
+        {
+          "id": "7f737e87-342e-4c15-ad78-bb2341471279",
+          "movie": "The Interview",
+          "director": "Seth Rogen & Evan Goldberg",
+          "runtime": "112 minutes",
+          "year": "2014"
+        },
+        {
+          "id": "b0b89b41-140a-4e3a-be07-eb134a4bdde1",
+          "movie": "Once Upon a Time in Hollywood",
+          "director": "Quentin Tarantino\t",
+          "runtime": "161 minutes",
+          "year": "2019"
+        }
+      ]
     }
   ]
 }
