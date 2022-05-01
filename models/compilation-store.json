@@ -1,30 +1,38 @@
 {
   "compilationCollection": [
     {
-      "id": "8f5131b2-9b0b-45af-bf3b-999f109f41ac",
+      "id": "36aeb490-cc76-4ae5-a608-3a84712732bd",
       "userid": "73ca2418-9371-4400-be67-3e6c454f84af",
       "title": "Action Movies",
       "duration": "901 Minutes",
-      "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651429704/im0yqyn0avpp7gnedazm.jpg",
-      "date": " ",
-      "movies": []
+      "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651439885/iurczuwefgpfl7ojuts9.jpg",
+      "date": "2022-05-01T21:18:04.311Z",
+      "movies": [
+        {
+          "id": "cba7001a-b7e6-4010-b63e-e008cd7fa8b5",
+          "movie": "Die Hard",
+          "director": "John McTiernan ",
+          "runtime": "132 minutes",
+          "year": "1988"
+        }
+      ]
     },
     {
-      "id": "9418beb6-6323-4bd5-bc72-1115f58d4728",
+      "id": "7772cb37-c0b8-45cc-bc9e-d9a73bf18170",
       "userid": "73ca2418-9371-4400-be67-3e6c454f84af",
       "title": "Thriller Movies",
       "duration": "938 minutes",
-      "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651429981/tephi9noxcphc3z8cb7l.jpg",
-      "date": "",
+      "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651440008/hbswwj6xdjlfjocg7wnt.jpg",
+      "date": "2022-05-01T21:20:08.343Z",
       "movies": []
     },
     {
-      "id": "6401e9b6-5752-49d5-a4a2-280c8f5d5f01",
+      "id": "6c54bd72-afb4-43c8-8a50-a89bd2332041",
       "userid": "73ca2418-9371-4400-be67-3e6c454f84af",
       "title": "Comedy Movies",
       "duration": "665 Minutes",
-      "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651430635/ph7tgyw2psecj7e9r9fv.jpg",
-      "date": "",
+      "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651440026/rwwsnzh9ox6uw3tzsuuh.jpg",
+      "date": "2022-05-01T21:20:26.086Z",
       "movies": []
     }
   ]

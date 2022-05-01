@@ -1,6 +1,6 @@
 'use strict';
 
-
+const cloudinary = require('cloudinary');
 const logger = require('../utils/logger');
 const uuid = require('uuid');
 

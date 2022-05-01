@@ -1,6 +1,7 @@
 'use strict';
 
 // import all required modules
+const cloudinary = require('cloudinary');
 const logger = require('../utils/logger');
 const compilationStore = require('../models/compilation-store.js');
 const accounts = require ('./accounts.js');
