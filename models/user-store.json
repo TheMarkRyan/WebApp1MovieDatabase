@@ -7,7 +7,22 @@
       "password": "Password1",
       "picture": "https://res.cloudinary.com/dofklqk3g/image/upload/v1651438136/TheDennis_flidho.jpg",
       "id": "73ca2418-9371-4400-be67-3e6c454f84af"
-      
+    },
+    {
+      "firstName": "Brenda",
+      "lastName": "Mullally",
+      "email": "bm@wit.ie",
+      "password": "Secret1",
+      "picture": "rebecca2.jpg",
+      "id": "382f55fd-ec94-4a26-86c1-9951ab5f3cb0"
+    },
+    {
+      "firstName": "Brenda",
+      "lastName": "Mullally",
+      "email": "bm@wit.ie",
+      "password": "Secret1",
+      "picture": "rebecca2.jpg",
+      "id": "d80eb502-1985-4c39-8a28-7315697e65ce"
     }
   ]
 }

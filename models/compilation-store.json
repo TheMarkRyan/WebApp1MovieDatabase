@@ -183,6 +183,23 @@
           "year": "1995"
         }
       ]
+    },
+    {
+      "id": "41c30550-2e85-41ec-a07b-26f2969506af",
+      "userid": "382f55fd-ec94-4a26-86c1-9951ab5f3cb0",
+      "title": "test",
+      "duration": "2",
+      "picture": "http://res.cloudinary.com/dofklqk3g/image/upload/v1651584361/x0pwlgcqee6dru9fqwhy.jpg",
+      "date": "2022-05-03T13:26:01.175Z",
+      "movies": [
+        {
+          "id": "86c4399c-017e-4cc1-b9a9-9335d3cdea10",
+          "movie": "test",
+          "director": "k",
+          "runtime": "8",
+          "year": "2023"
+        }
+      ]
     }
   ]
 }
